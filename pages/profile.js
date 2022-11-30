@@ -66,7 +66,11 @@ export default function ProfilePage(props) {
                     <Button justIcon link className={classes.margin5}>
                       <i className={'fab fa-instagram'} />
                     </Button>
-                    <Button justIcon link className={classes.margin5}>
+                    <Button
+                      className={classes.margin5}
+                      href="https://www.facebook.com/profile.php?id=100006742628077"
+                      target="_blank"
+                    >
                       <i className={'fab fa-facebook'} />
                     </Button>
                   </div>
